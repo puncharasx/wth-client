@@ -1,16 +1,6 @@
 import React, { useState } from 'react'
 import * as api from '../../api'
 
-interface Post {
-    id?: any
-    title: string
-    text: string
-    image: string
-  }
-
-
-
-
 const Input = () => {
     
     const [title, setTitle] = useState('')

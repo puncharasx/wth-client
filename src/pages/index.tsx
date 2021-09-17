@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import * as api from '../api'
 import Content from '../components/Content'
 import Header from '../components/Header'
